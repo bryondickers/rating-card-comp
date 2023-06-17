@@ -4,9 +4,8 @@ function getContent(element) {
     rateNumber = element.textContent;
     
     element.classList.add("bg-orange","text-white")
-    console.log(element)
-    console.log(element.currentTarget);
-  
+    console.log(rateNumber)
+    
     
 };
 
